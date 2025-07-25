@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'login.dart';
 import 'package:get/get.dart';
+import 'controllers/auth_controller.dart';
 
 void main() {
+  Get.put(AuthController());
   runApp(const MainApp());
 }
 
